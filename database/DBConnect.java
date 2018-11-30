@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class DBConnect {
     final static String driverMySQl = "com.mysql.jdbc.Driver";
     final static String url = "jdbc:mysql://localhost/kino";
-    final static String uid = "root";
-    final static String pwd = "Karol1234";
+    final static String uid = "****";
+    final static String pwd = "*****";
     private Connection con = null;
 
     public DBConnect() {
